@@ -1,0 +1,95 @@
+.slideContainer {
+  padding: 0 20px;
+  padding-bottom: 48px;
+}
+.dateText {
+  font-size: 16px;
+  font-weight: 600;
+  color: #b5b5b5;
+}
+.titleBox {
+  margin-top: 7px;
+  display: flex;
+  flex-direction: row;
+}
+.titleWrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 10px;
+}
+.providerTitle {
+  font-size: 12px;
+  font-weight: 600;
+  color: #aaaaaa;
+  width: fit-content;
+}
+.title {
+  font-size: 13px;
+  font-weight: 600;
+  color: #f1f1f1;
+}
+.summaryBox {
+  margin-top: 10px;
+}
+.summary {
+  min-height: 50px;
+  background-color: #2e2e2e;
+  opacity: 0.8;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.summaryTextBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 10px;
+}
+.summaryText {
+  font-size: 13px;
+  font-weight: 400;
+  color: #fff;
+  padding: 10px;
+}
+.categoryBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20px;
+}
+.categoryText {
+  font-size: 15px;
+  font-weight: 400;
+  color: #3d6bff;
+  margin-left: 8px;
+}
+.swiperSlide {
+  max-height: calc(100dvh - 130px);
+}
+.summaryBtn {
+  height: 350;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+.providerIcon:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+.summaryBtn:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+.providerTitle:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.title:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
